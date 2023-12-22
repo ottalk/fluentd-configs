@@ -54,7 +54,7 @@ module Fluent
               if mutex.try_lock
                 locks[key] = mutex
               else
-                locks.each_value(&:unlock)
+                locks.values.each(&:unlock)
                 locks = {}          # flush locked keys
                 break
               end
