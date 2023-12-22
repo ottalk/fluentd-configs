@@ -1,0 +1,23 @@
+current directory: /home/ottalk/ruby-3.2.2/lib/ruby/gems/3.2.0/gems/strptime-0.2.5/ext/strptime
+/home/ottalk/ruby-3.2.2/bin/ruby extconf.rb
+checking for rb_timespec_now()... yes
+checking for rb_time_timespec_new()... yes
+checking for rb_time_utc_offset()... yes
+creating Makefile
+
+current directory: /home/ottalk/ruby-3.2.2/lib/ruby/gems/3.2.0/gems/strptime-0.2.5/ext/strptime
+make DESTDIR\= sitearchdir\=./.gem.20231220-176385-mt10is sitelibdir\=./.gem.20231220-176385-mt10is clean
+
+current directory: /home/ottalk/ruby-3.2.2/lib/ruby/gems/3.2.0/gems/strptime-0.2.5/ext/strptime
+make DESTDIR\= sitearchdir\=./.gem.20231220-176385-mt10is sitelibdir\=./.gem.20231220-176385-mt10is
+compiling ruby_time.c
+compiling strftime.c
+compiling strptime.c
+linking shared-object strptime/strptime.so
+
+current directory: /home/ottalk/ruby-3.2.2/lib/ruby/gems/3.2.0/gems/strptime-0.2.5/ext/strptime
+make DESTDIR\= sitearchdir\=./.gem.20231220-176385-mt10is sitelibdir\=./.gem.20231220-176385-mt10is install
+/usr/bin/install -c -m 0755 strptime.so ./.gem.20231220-176385-mt10is/strptime
+
+current directory: /home/ottalk/ruby-3.2.2/lib/ruby/gems/3.2.0/gems/strptime-0.2.5/ext/strptime
+make DESTDIR\= sitearchdir\=./.gem.20231220-176385-mt10is sitelibdir\=./.gem.20231220-176385-mt10is clean
